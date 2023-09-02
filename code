@@ -1,0 +1,10 @@
+def rectangle_area(width, height):
+    return width * height
+
+if name == "__main__":
+    width = float(input("Enter the width of the rectangle: "))
+    height = float(input("Enter the height of the rectangle: "))
+    
+    area = rectangle_area(width, height)
+    
+    print(f"The area of the rectangle is: {area}")
